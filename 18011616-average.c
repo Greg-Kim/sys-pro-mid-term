@@ -8,7 +8,7 @@ int main(void)
         printf("Input the system programming, algortihm, and network score:");
         scanf("%d%d%d", &system, &algorithm, &network);
 
-        average = (system + algorithm + network) / 3; // logical error ( code auditing )
+        average = (system + algorithm + network) / (double)3; // logical error ( code auditing )
 
         printf("The average of the three subjects is %.2f\n", average);
         // format string must be %.2f, not %d
