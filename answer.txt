@@ -1,0 +1,14 @@
+problem 3 answer
+
+as you can see in the pic no.3-1
+my gdb has a plugin called pwndbg
+
+I've done my job with code auditing.
+
+first, var average should be double since it should contains a decial points.
+and also 3 must be double too.
+
+second, %.2f is needed not %d
+
+as you can see in pic 3-3
+it exits normaly
